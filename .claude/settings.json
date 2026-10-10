@@ -1,14 +1,35 @@
 {
+  "enabledPlugins": {
+    "savvy-flow@claude-kit": true,
+    "savvy-progress@claude-kit": true,
+    "filetree@claude-code-filetree": true,
+    "reflect-mod@claude-reflect-marketplace": true,
+    "blast-radius@claude-mods": true
+  },
   "extraKnownMarketplaces": {
     "claude-kit": {
       "source": {
         "source": "github",
         "repo": "johnnyvizz/claude-kit"
       }
+    },
+    "claude-code-filetree": {
+      "source": {
+        "source": "github",
+        "repo": "data-goblin/claude-code-filetree"
+      }
+    },
+    "claude-reflect-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "BayramAnnakov/claude-reflect"
+      }
+    },
+    "claude-mods": {
+      "source": {
+        "source": "github",
+        "repo": "sid9394/Claude-Mods"
+      }
     }
-  },
-  "enabledPlugins": {
-    "savvy-flow@claude-kit": true,
-    "savvy-progress@claude-kit": true
   }
 }
